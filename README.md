@@ -16,7 +16,7 @@ Open `localhost:8080`
 
 Only enabled in `NODE_ENV=test` environment via [`env` option](https://new.babeljs.io/docs/en/next/babelrc.html#env-environment-option) in [.babelrc](.babelrc) file.
 
-To server the app using [webpack-dev-server](https://github.com/webpack/webpack-dev-server) with instrumented app and open Cypress use:
+To serve the app using [webpack-dev-server](https://github.com/webpack/webpack-dev-server) with instrumented app and open Cypress use:
 
 ```shell
 npm run dev
@@ -39,6 +39,10 @@ open coverage/index.html
 ```
 
 ![Coverage HTML report](images/coverage-report.png)
+
+## NPM scripts
+
+See [package.json](package.json) for all NPM scripts.
 
 ## More information
 

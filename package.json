@@ -5,10 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
+    "build": "webpack",
     "start": "webpack-dev-server",
     "start:test": "cross-env NODE_ENV=test webpack-dev-server",
     "dev": "start-test start:test 8080 cy:open",
-    "cy:open": "cypress open"
+    "pree2e": "npm run rm:coverage",
+    "e2e": "start-test start:test 8080",
+    "cy:open": "cypress open",
+    "rm:coverage": "rm -rf coverage || true"
   },
   "repository": {
     "type": "git",

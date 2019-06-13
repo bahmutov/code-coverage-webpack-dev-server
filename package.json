@@ -12,7 +12,8 @@
     "pree2e": "npm run rm:coverage",
     "e2e": "start-test start:test 8080",
     "cy:open": "cypress open",
-    "rm:coverage": "rm -rf coverage || true"
+    "rm:coverage": "rm -rf coverage || true",
+    "check:coverage": "nyc report --reporter=text-summary --check-coverage"
   },
   "repository": {
     "type": "git",

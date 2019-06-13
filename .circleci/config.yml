@@ -8,4 +8,8 @@ workflows:
           start: npm run start:test
           wait-on: http://localhost:8080
           post-steps:
+            # store coverage HTML report
+            - store_artifacts:
+                path: coverage
+            # make sure the coverage numbers are high enough
             - run: npm run check:coverage

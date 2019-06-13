@@ -6,6 +6,6 @@ workflows:
     jobs:
       - cypress/run:
           start: npm run start:test
-          wait: http://localhost:8080
+          wait-on: http://localhost:8080
           post-steps:
             - run: npm run check:coverage

@@ -1,4 +1,4 @@
-# code-coverage-webpack-dev-server [![CircleCI](https://circleci.com/gh/bahmutov/code-coverage-webpack-dev-server.svg?style=svg)](https://circleci.com/gh/bahmutov/code-coverage-webpack-dev-server)
+# code-coverage-webpack-dev-server [![renovate-app badge][renovate-badge]][renovate-app] [![CircleCI](https://circleci.com/gh/bahmutov/code-coverage-webpack-dev-server.svg?style=svg)](https://circleci.com/gh/bahmutov/code-coverage-webpack-dev-server)
 > Example of Cypress.io code coverage collected from webpack dev server
 
 Webpack dev server setup following blog post [Webpack with Babel 7 Project Setup](https://dev.to/shoupn/webpack-with-babel-7-project-setup-2hin).
@@ -43,3 +43,6 @@ open coverage/index.html
 ## More information
 
 - Read Cypress [code coverage guide](https://on.cypress.io/code-coverage)
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/

@@ -1,7 +1,7 @@
-import path from 'path'
-import HtmlWebpackPlugin from 'html-webpack-plugin'
-import ScriptExtHtmlWebpackPlugin from 'script-ext-html-webpack-plugin'
-export default {
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin')
+module.exports = {
   entry: path.join(__dirname, 'src/index.js'),
   output: {
     path: path.join(__dirname, 'dist'),
@@ -10,6 +10,9 @@ export default {
   module: {
     rules: [
       {
+        // when bundling application's own source code
+        // transpile using Babel which uses .babelrc file
+        // and instruments code using babel-plugin-istanbul
         test: /\.js/,
         exclude: /(node_modules|bower_components)/,
         use: [

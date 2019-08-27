@@ -4,8 +4,10 @@ orbs:
 workflows:
   build:
     jobs:
+      # note that in order to instrument code
+      # CI project should have NODE_ENV=test set
       - cypress/run:
-          start: npm run start:test
+          start: npm start
           wait-on: http://localhost:8080
           post-steps:
             # store coverage HTML report

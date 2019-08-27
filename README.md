@@ -14,7 +14,7 @@ Open `localhost:8080`
 
 ## Code instrumentation
 
-Only enabled in `NODE_ENV=test` environment via [`env` option](https://new.babeljs.io/docs/en/next/babelrc.html#env-environment-option) in [.babelrc](.babelrc) file.
+Only enabled in `NODE_ENV=test` environment via [`env` option](https://new.babeljs.io/docs/en/next/babelrc.html#env-environment-option) in [.babelrc](.babelrc) file. This file is used to transpile source code because of [webpack.config.babel.js](webpack.config.babel.js)
 
 To serve the app using [webpack-dev-server](https://github.com/webpack/webpack-dev-server) with instrumented app and open Cypress use:
 

@@ -57,7 +57,7 @@ Cypress code coverage plugin automatically combines end-to-end and unit test cod
 The coverage HTML and other reports are saved into folder `coverage`. You can open HTML report with
 
 ```shell
-open coverage/index.html
+coverage/lcov-report/index.html
 ```
 
 ![Coverage HTML report](images/coverage-report.png)

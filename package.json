@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/bahmutov/code-coverage-webpack-dev-server#readme",
   "devDependencies": {
-    "@babel/core": "7.6.2",
-    "@babel/preset-env": "7.6.2",
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "7.6.3",
     "@babel/register": "7.6.2",
     "@cypress/code-coverage": "1.10.1",
     "@cypress/webpack-preprocessor": "4.1.0",

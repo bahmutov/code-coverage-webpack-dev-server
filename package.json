@@ -29,7 +29,7 @@
     "@babel/preset-env": "7.7.1",
     "@babel/register": "7.7.0",
     "@cypress/code-coverage": "1.10.2",
-    "@cypress/webpack-preprocessor": "4.1.0",
+    "@cypress/webpack-preprocessor": "4.1.1",
     "babel-loader": "8.0.6",
     "babel-plugin-istanbul": "5.2.0",
     "cross-env": "5.2.1",

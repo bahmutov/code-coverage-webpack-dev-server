@@ -28,7 +28,7 @@
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.5",
     "@babel/register": "7.28.3",
-    "@cypress/code-coverage": "1.14.0",
+    "@cypress/code-coverage": "3.14.7",
     "@cypress/webpack-preprocessor": "4.1.5",
     "babel-loader": "8.4.1",
     "babel-plugin-istanbul": "5.2.0",
